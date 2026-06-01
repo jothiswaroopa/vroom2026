@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VROOM 2026 – Vysya Rally of Our Madras | Premium Heritage Car Rally Chennai</title>
-    <meta name="description" content="Join VROOM 2026, a premium heritage car rally for the Arya Vysya community in Chennai. Discover heritage, solve clues, and celebrate community. Register now!">
+    <title>VROOM 2026 – Vysya Rally of Our Madras</title>
+    <meta name="description" content="A premium Chennai heritage car rally for the Arya Vysya community blending adventure, family, and culture.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <!-- Font suggestion: A premium serif like Playfair Display and a clean sans-serif like Inter -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- 1. Sticky Premium Navbar -->
-    <nav class="navbar sticky">
-        <div class="container">
-            <a href="#" class="logo">
-                <img src="images/logo.png" alt="VROOM 2026 Logo">
+    <!-- Premium Sticky Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-logo">
+                <div class="logo-shield">VROOM</div>
             </a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -23,157 +22,162 @@
                 <li><a href="#categories">Categories</a></li>
                 <li><a href="#faq">FAQ</a></li>
             </ul>
-            <a href="#register" class="btn btn-gold navbar-cta">Register Now</a>
+            <a href="#register" class="btn btn-gold-nav">Register Now</a>
         </div>
     </nav>
 
-    <!-- 2. Hero Section -->
-    <header class="hero">
+    <!-- Cinematic Hero Section -->
+    <header class="hero-section">
+        <div class="hero-bg-graphic"></div>
         <div class="hero-overlay"></div>
-        <div class="container">
-            <div class="hero-content text-center">
-                <img src="images/logo.png" alt="VROOM Logo Large" class="hero-logo large-only">
-                <h1 class="hero-title">VROOM 2026</h1>
-                <h2 class="hero-subtitle">Vysya Rally of Our Madras</h2>
-                <p class="hero-lead">Drive through heritage. Discover stories. Celebrate community.</p>
-                <p class="hero-description">A premium Chennai heritage car rally for the Arya Vysya community — blending adventure, family bonding, teamwork, exploration, and culture into one unforgettable experience.</p>
-                
-                <!-- Quick Stats -->
-                <div class="hero-stats">
-                    <span class="stat-item">🚗 100 Cars</span>
-                    <span class="stat-item">👨‍👩‍👧‍👦 400 Participants</span>
-                    <span class="stat-item">👥 4 Members Per Car</span>
-                    <span class="stat-item">📅 09 Aug 2026</span>
-                    <span class="stat-item">💰 ₹2,000 Registration</span>
+        <div class="container hero-content text-center">
+            <div class="hero-badge-container">
+                <div class="badge-logo-wrapper">
+                    <!-- High-fidelity fallbacks matching image_40589f.jpg -->
+                    <div class="rally-emblem">VROOM 2026</div>
                 </div>
+            </div>
+            
+            <h1 class="hero-main-title">VROOM 2026</h1>
+            <h2 class="hero-sub-title">Vysya Rally of Our Madras</h2>
+            <p class="hero-tagline">Drive through heritage. Discover stories. Celebrate community.</p>
+            <p class="hero-lead-text">A premium Chennai heritage car rally for the Arya Vysya community — blending adventure, family bonding, teamwork, exploration, and culture into one unforgettable experience.</p>
+            
+            <!-- Quick Event Stats Grid -->
+            <div class="stats-badge-bar">
+                <span class="badge-item">🚗 100 Cars</span>
+                <span class="badge-item">👨‍👩‍👧‍👦 400 Participants</span>
+                <span class="badge-item">👥 4 Members Per Car</span>
+                <span class="badge-item">📅 09 August 2026</span>
+                <span class="badge-item">💰 ₹2,000 Registration</span>
+            </div>
 
-                <!-- Hero CTAs -->
-                <div class="hero-actions">
-                    <a href="#register" class="btn btn-red btn-lg">Register Your Car – ₹2,000</a>
-                    <a href="#about" class="btn btn-cream btn-lg">Explore the Rally</a>
-                </div>
+            <!-- Hero Primary Actions -->
+            <div class="hero-action-row">
+                <a href="#register" class="btn btn-action-red">Register Your Car – ₹2,000</a>
+                <a href="#about" class="btn btn-action-outline">Explore the Rally</a>
+            </div>
 
-                <!-- Urgency & Countdown -->
-                <div class="hero-urgency-wrapper">
-                    <div class="urgency-badge">
-                        <span class="icon">⚠️</span>
-                        <span>Only 100 Cars | Limited Registrations</span>
-                    </div>
-                    <div id="countdown" class="countdown-timer">
-                        <!-- JS handles content here -->
-                    </div>
+            <!-- Urgent Callout & Live Countdown Component -->
+            <div class="hero-urgency-wrapper">
+                <div class="scarcity-card">
+                    <span class="scarcity-title">Only 100 Cars</span>
+                    <span class="scarcity-sub">Limited Registrations</span>
                 </div>
+                <div id="countdown" class="premium-countdown">
+                    <!-- Injected dynamically via script.js -->
+                </div>
+            </div>
 
-                <div class="scroll-indicator">
-                    <span class="arrow">↓</span>
-                    <span class="text">Scroll Indicator</span>
-                </div>
+            <div class="scroll-indicator-wrapper">
+                <span class="scroll-text">Scroll Indicator</span>
+                <div class="scroll-arrow">▼</div>
             </div>
         </div>
     </header>
 
-    <!-- 3. About VROOM -->
-    <section id="about" class="about">
+    <!-- About VROOM Section -->
+    <section id="about" class="section-about cream-section">
         <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title">What is VROOM?</h2>
-                <p class="section-subtitle">A unique blending of exploration and community.</p>
+            <div class="section-heading text-center">
+                <h2 class="h2-title">About VROOM</h2>
+                <p class="heading-desc">Explaining short heritage car and thrill concept.</p>
             </div>
-            <div class="grid grid-3 grid-gap-lg">
-                <div class="card icon-card">
-                    <span class="icon">🚗</span>
+            <div class="about-icon-grid">
+                <div class="about-icon-card">
+                    <div class="card-icon-wrap">🚗</div>
                     <h3>Heritage car rally</h3>
                     <p>A premium Chennai heritage car rally for the entire community.</p>
                 </div>
-                <div class="card icon-card">
-                    <span class="icon">🗺️</span>
+                <div class="about-icon-card">
+                    <div class="card-icon-wrap">📍</div>
                     <h3>Guided route</h3>
                     <p>Routes meticulously planned through a guided route map.</p>
                 </div>
-                <div class="card icon-card">
-                    <span class="icon">🏛️</span>
+                <div class="about-icon-card">
+                    <div class="card-icon-wrap">🏛️</div>
                     <h3>Arya Vysya prestigious spots</h3>
                     <p>Heritage and specific spots across Vysya landmarks.</p>
                 </div>
-                <div class="card icon-card">
-                    <span class="icon">🔍</span>
+                <div class="about-icon-card">
+                    <div class="card-icon-wrap">🔍</div>
                     <h3>Clue-solving experience</h3>
                     <p>Clue-solving experience, clue-solving experiences, clue-solving.</p>
                 </div>
-                <div class="card icon-card">
-                    <span class="icon">👨‍👩‍👧‍👦</span>
+                <div class="about-icon-card">
+                    <div class="card-icon-wrap">👨‍👩‍👧‍👦</div>
                     <h3>Family and community</h3>
                     <p>Perfect for families and community participation.</p>
                 </div>
-                <div class="card icon-card">
-                    <span class="icon">🛡️</span>
-                    <h3>A safe organized rally</h3>
+                <div class="about-icon-card">
+                    <div class="card-icon-wrap">🛡️</div>
+                    <h3>A Safe organized rally</h3>
                     <p>A safe organized rally and safe organized rally and safety.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 4. How The Rally Works -->
-    <section id="format" class="rally-steps gradient-bg">
+    <!-- How The Rally Works Timeline Section -->
+    <section id="format" class="section-timeline navy-section">
         <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title">How The Rally Works</h2>
-                <p class="section-subtitle">Premium horizontal timeline cards with subtle animations.</p>
+            <div class="section-heading text-center">
+                <h2 class="h2-title text-white">How The Rally Works</h2>
+                <p class="heading-desc text-gold">Premium horizontal timeline cards with subtle animations.</p>
             </div>
-            <div class="timeline">
-                <div class="timeline-step card">
-                    <span class="step-number">1.</span>
-                    <h3>Register Your Team</h3>
+            <div class="horizontal-timeline-container">
+                <div class="timeline-block-card">
+                    <span class="step-idx">1.</span>
+                    <p class="step-label">Register Your Team</p>
                 </div>
-                <div class="timeline-step card">
-                    <span class="step-number">2.</span>
-                    <h3>Arrive at Starting Point</h3>
+                <div class="timeline-block-card">
+                    <span class="step-idx">2.</span>
+                    <p class="step-label">Arrive at Starting Point</p>
                 </div>
-                <div class="timeline-step card">
-                    <span class="step-number">3.</span>
-                    <h3>Receive Guide Map & Instructions</h3>
+                <div class="timeline-block-card">
+                    <span class="step-idx">3.</span>
+                    <p class="step-label">Receive Guide Map & Instructions</p>
                 </div>
-                <div class="timeline-step card">
-                    <span class="step-number">4.</span>
-                    <h3>Begin Organised Rally</h3>
+                <div class="timeline-block-card">
+                    <span class="step-idx">4.</span>
+                    <p class="step-label">Begin Organised Rally</p>
                 </div>
-                <div class="timeline-step card">
-                    <span class="step-number">5.</span>
-                    <h3>Visit Heritage Arya Vysya Spots</h3>
+                <div class="timeline-block-card">
+                    <span class="step-idx">5.</span>
+                    <p class="step-label">Visit Heritage Arya Vysya Spots</p>
                 </div>
-                <div class="timeline-step card">
-                    <span class="step-number">6.</span>
-                    <h3>Discover Answers to Rally Questions</h3>
+                <div class="timeline-block-card">
+                    <span class="step-idx">6.</span>
+                    <p class="step-label">Discover Answers to Rally Questions</p>
                 </div>
-                <div class="timeline-step card">
-                    <span class="step-number">7.</span>
-                    <h3>Complete the Route & Finish Rally</h3>
+                <div class="timeline-block-card">
+                    <span class="step-idx">7.</span>
+                    <p class="step-label">Complete the Route & Finish Rally</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 5. Rally Categories -->
-    <section id="categories" class="categories">
+    <!-- Rally Categories Section -->
+    <section id="categories" class="section-categories cream-section">
         <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title">Rally Categories</h2>
-                <p class="section-subtitle">Beautiful premium cards with distinct visual color coding.</p>
+            <div class="section-heading text-center">
+                <h2 class="h2-title">Rally Categories</h2>
+                <p class="heading-desc">Beautiful premium cards with distinct visual configurations.</p>
             </div>
-            <div class="grid grid-3 grid-gap-md">
-                <div class="card category-card navy-theme">
-                    <span class="icon">👨‍👩‍👧‍👦</span>
+            <div class="categories-row-layout">
+                <div class="category-pill-card dark-blue-fill">
+                    <div class="pill-icon">👨‍👩‍👧‍👦</div>
                     <h3>Family Category</h3>
                     <p>4 Arya Vysya participants</p>
                 </div>
-                <div class="card category-card red-theme">
-                    <span class="icon">👩‍👩‍👧‍👦</span>
+                <div class="category-pill-card crimson-fill">
+                    <div class="pill-icon">👩‍👩‍👧‍👦</div>
                     <h3>All Women Category</h3>
                     <p>4 Arya Vysya women participants</p>
                 </div>
-                <div class="card category-card navy-theme">
-                    <span class="icon">👥</span>
+                <div class="category-pill-card light-blue-fill">
+                    <div class="pill-icon">👥</div>
                     <h3>Open Community Category</h3>
                     <p>Minimum 2 Arya Vysya participants + non-Arya Vysya participants</p>
                 </div>
@@ -181,203 +185,217 @@
         </div>
     </section>
 
-    <!-- 6. Why Participate -->
-    <section class="why-participate section-padding-lg cream-bg">
+    <!-- Why Participate Grid Component -->
+    <section class="section-why navy-section">
         <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title">Why Participate</h2>
-                <p class="section-subtitle">Beautiful premium cards with click revealed explanations.</p>
+            <div class="section-heading text-center">
+                <h2 class="h2-title text-white">Why Participate</h2>
+                <p class="heading-desc text-gold">Beautiful premium cards with clean layouts.</p>
             </div>
-            <div class="grid grid-3 grid-gap-md">
-                <div class="card feature-card">
-                    <span class="icon">🏛️</span>
+            <div class="why-grid-layout">
+                <div class="why-block-item">
+                    <span class="why-emoji">🏛️</span>
                     <h4>Celebrate Arya Vysya Heritage</h4>
                 </div>
-                <div class="card feature-card">
-                    <span class="icon">📍</span>
+                <div class="why-block-item">
+                    <span class="why-emoji">📍</span>
                     <h4>Explore Chennai Differently</h4>
                 </div>
-                <div class="card feature-card">
-                    <span class="icon">🔍</span>
+                <div class="why-block-item">
+                    <span class="why-emoji">🔍</span>
                     <h4>Fun Treasure Hunt Experience</h4>
                 </div>
-                <div class="card feature-card">
-                    <span class="icon">👨‍👩‍👧</span>
+                <div class="why-block-item">
+                    <span class="why-emoji">👨‍👩‍👧</span>
                     <h4>Family Bonding</h4>
                 </div>
-                <div class="card feature-card">
-                    <span class="icon">🤝</span>
+                <div class="why-block-item">
+                    <span class="why-emoji">🤝</span>
                     <h4>Meet Like-Minded Community</h4>
                 </div>
-                <div class="card feature-card">
-                    <span class="icon">🛡️</span>
+                <div class="why-block-item">
+                    <span class="why-emoji">🛡️</span>
                     <h4>Safe & Organised Rally</h4>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 7. Safety & Registration Details -->
-    <section class="registration-details gradient-bg">
+    <!-- Registration Details Container -->
+    <section class="section-details cream-section">
         <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title text-cream">Registration Details</h2>
-                <p class="section-subtitle text-cream">Builds trust with structured cards and crucial event information.</p>
+            <div class="section-heading text-center">
+                <h2 class="h2-title">Registration Details</h2>
+                <p class="heading-desc">Builds trust with structured cards and crucial event parameters.</p>
             </div>
-            <div class="grid grid-3 grid-gap-md">
-                <div class="card info-card">
-                    <span class="icon">📅</span>
+            <div class="details-stats-row">
+                <div class="detail-stat-node deep-navy-box">
+                    <span class="node-icon">📅</span>
                     <h4>09.08.2026</h4>
-                    <p>Rally date and participation</p>
+                    <p>Rally Date & Timing</p>
                 </div>
-                <div class="card info-card red-theme">
-                    <span class="icon">💰</span>
-                    <h4>All Women Category</h4>
-                    <p>4 Arya Vysya participants</p>
+                <div class="detail-stat-node crimson-box">
+                    <span class="node-icon">💰</span>
+                    <h4>₹2,000 / Car</h4>
+                    <p>Registration Fee</p>
                 </div>
-                <div class="card info-card">
-                    <span class="icon">🚗</span>
-                    <h4>Open Open Community Category</h4>
-                    <p>Minimum 2 Arya Vysya participants + non-Arya Vysya participants</p>
+                <div class="detail-stat-node deep-navy-box">
+                    <span class="node-icon">🚗</span>
+                    <h4>100 Cars Max</h4>
+                    <p>Limited Slot Allocation</p>
                 </div>
             </div>
-            <div class="payment-action-card text-center card">
-                <a href="PAYMENT_LINK_HERE" target="_blank" class="btn btn-red btn-wide">PAYMENT_LINK_HERE</a>
+            <div class="payment-action-banner-box">
+                <a href="PAYMENT_LINK_HERE" target="_blank" class="btn btn-massive-red">PAYMENT_LINK_HERE</a>
             </div>
         </div>
     </section>
 
-    <!-- 8. Registration Form -->
-    <section id="register" class="register cream-bg">
-        <div class="container container-sm">
-            <div class="card premium-form-card">
-                <h2 class="section-title text-center">Registration Form</h2>
-                <p class="text-center section-subtitle">Premium form design. Ensure all required fields are filled.</p>
+    <!-- Immersive Interactive Registration Form Component -->
+    <section class="section-form-wrapper navy-section">
+        <div class="container container-narrow">
+            <div class="form-container-card-block">
+                <h2 class="form-block-title">Registration Form</h2>
+                <p class="form-block-subtitle">Premium form design. Ensure all required fields are populated properly.</p>
                 
-                <form action="#" method="post" enctype="multipart/form-data">
-                    <div class="form-grid">
-                        <div class="form-group">
-                            <label for="captain_name">Team Captain Name</label>
-                            <input type="text" id="captain_name" name="captain_name" placeholder="John Doe" required>
+                <form id="vroomRegistrationForm" onsubmit="event.preventDefault(); handleFormSubmit();">
+                    <div class="form-dual-column-layout">
+                        <div class="input-field-group">
+                            <label for="captainName">Team Captain Name</label>
+                            <input type="text" id="captainName" placeholder="Team Captain Name" required>
                         </div>
-                        <div class="form-group">
-                            <label for="p1_name">Participant 1 Name</label>
-                            <input type="text" id="p1_name" name="p1_name" placeholder="Name" required>
+                        <div class="input-field-group">
+                            <label for="p1Name">Participant 1 Name</label>
+                            <input type="text" id="p1Name" placeholder="Participant 1 Name" required>
                         </div>
-                        <div class="form-group">
-                            <label for="mobile">Mobile Number</label>
-                            <input type="tel" id="mobile" name="mobile" placeholder="9876543210" required>
+                        <div class="input-field-group">
+                            <label for="mobileNo">Mobile Number</label>
+                            <input type="tel" id="mobileNo" placeholder="Mobile Number" required>
                         </div>
-                        <div class="form-group">
-                            <label for="p2_name">Participant 2 Name</label>
-                            <input type="text" id="p2_name" name="p2_name" placeholder="Name" required>
+                        <div class="input-field-group">
+                            <label for="p2Name">Participant 2 Name</label>
+                            <input type="text" id="p2Name" placeholder="Participant 2 Name" required>
                         </div>
-                        <div class="form-group">
-                            <label for="whatsapp">WhatsApp Number</label>
-                            <input type="tel" id="whatsapp" name="whatsapp" placeholder="9876543210">
+                        <div class="input-field-group">
+                            <label for="whatsappNo">WhatsApp Number</label>
+                            <input type="tel" id="whatsappNo" placeholder="WhatsApp Number" required>
                         </div>
-                        <div class="form-group">
-                            <label for="city">City / Area</label>
-                            <input type="text" id="city" name="city" placeholder="Chennai" required>
+                        <div class="input-field-group">
+                            <label for="cityArea">City / Area</label>
+                            <input type="text" id="cityArea" placeholder="City / Area" required>
                         </div>
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" placeholder="email@example.com" required>
+                        <div class="input-field-group">
+                            <label for="emailAddr">Email Address</label>
+                            <input type="email" id="emailAddr" placeholder="Email Address" required>
                         </div>
-                        <div class="form-group">
-                            <label for="payment_status">Payment Status</label>
-                            <input type="text" id="payment_status" name="payment_status" placeholder="Completed">
+                        <div class="input-field-group">
+                            <label for="paymentStatus">Payment Status</label>
+                            <input type="text" id="paymentStatus" placeholder="Payment Status">
                         </div>
-                        <div class="form-group full-width">
-                            <label for="category">Category Selection</label>
-                            <select id="category" name="category" required>
-                                <option value="" disabled selected>Select Category</option>
+                        <div class="input-field-group span-full-width">
+                            <label for="categorySelect">Category Selection</label>
+                            <select id="categorySelect" required>
+                                <option value="" disabled selected>Participant 1 Name</option>
                                 <option value="family">Family Category</option>
                                 <option value="women">All Women Category</option>
                                 <option value="open">Open Community Category</option>
                             </select>
                         </div>
-                        <div class="form-group full-width file-upload-group">
-                            <label for="screenshot">Screenshot Upload Placeholder</label>
-                            <div class="file-upload-wrapper">
-                                <input type="file" id="screenshot" name="screenshot" accept="image/*">
-                                <span class="file-upload-btn card">
-                                    <span class="icon">📤</span>
-                                    <span>Choose File</span>
-                                </span>
+                        <div class="input-field-group span-full-width">
+                            <label for="screenshotUpload">Screenshot Upload Placeholder</label>
+                            <div class="custom-file-upload-box">
+                                <input type="file" id="screenshotUpload" accept="image/*">
+                                <div class="upload-trigger-ui">
+                                    <span class="upload-icon">📷</span>
+                                    <span>Choose File / Take Screenshot</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label for="p3_name">Participant 3 Name</label>
-                            <input type="text" id="p3_name" name="p3_name" placeholder="Name" required>
-                        </div>
-                        <div class="form-group full-width payment-link-placeholder card text-center">
-                            <h4>PAYMENT_LINK_HERE</h4>
-                            <p>Register & Pay ₹2,000</p>
+                        <div class="input-field-group span-full-width">
+                            <label for="p3Name">Participant 3 Name</label>
+                            <input type="text" id="p3Name" placeholder="Participant 3 Name" required>
                         </div>
                     </div>
+                    
+                    <div class="form-embedded-payment-callout">
+                        <h3>PAYMENT_LINK_HERE</h3>
+                        <p>Register & Pay ₹2,000</p>
+                    </div>
+
+                    <button type="submit" class="btn btn-form-submit-gold">Submit Final Registration</button>
                 </form>
+                <div id="formSuccessMessage" class="form-success-alert-box hidden">
+                    Thank you for registering for VROOM 2026. Our team will verify your payment and contact you shortly.
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- 9. FAQ Section -->
-    <section id="faq" class="faq section-padding-lg navy-bg">
+    <!-- FAQ Section -->
+    <section id="faq" class="section-faq cream-section">
         <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title text-cream">FAQ Section</h2>
+            <div class="section-heading text-center">
+                <h2 class="h2-title">FAQ Section</h2>
             </div>
-            <div class="faq-grid grid grid-2 grid-gap-lg">
-                <div class="faq-item">
-                    <h4>Q. How many people can travel in one car?</h4>
-                    <p>A. 4 participants.</p>
+            <div class="faq-two-column-split">
+                <div class="faq-item-card">
+                    <h4>Q. Number of participants?</h4>
+                    <p>A. Maximum of 4 participants are allowed inside the rally vehicle.</p>
                 </div>
-                <div class="faq-item">
-                    <h4>Q. Is limited registration?</h4>
-                    <p>A. The event accommodates around 100 entries limited. We anticipate high interest.</p>
-                </div>
-                <div class="faq-item">
+                <div class="faq-item-card">
                     <h4>Q. What participation criteria?</h4>
-                    <p>A. Our event is specialized for the community where 2 participants per car are community.</p>
+                    <p>A. Our event ensures context community connection layout options.</p>
                 </div>
-                <div class="faq-item">
-                    <h4>Q. What happens during rally?</h4>
-                    <p>A. The guided route is provided. The route takes you through Chennai heritage spots.</p>
-                </div>
-                <div class="faq-item">
+                <div class="faq-item-card">
                     <h4>Q. What fee?</h4>
-                    <p>A. Generous contribution per car, which can be paid during the registration.</p>
+                    <p>A. The registration cost stands at a premium value of ₹2,000 per car.</p>
                 </div>
-                <div class="faq-item">
-                    <h4>Q. For safety - safety?</h4>
-                    <p>A. Provided permissions have been acquired, the rally follows safety procedures.</p>
+                <div class="faq-item-card">
+                    <h4>Q. What to event details?</h4>
+                    <p>A. Access comprehensive navigation guidelines post checking in.</p>
                 </div>
-                <div class="faq-item">
-                    <h4>Q. What participation community?</h4>
-                    <p>A. Specialized for the entire community where participants can involve.</p>
+                <div class="faq-item-card">
+                    <h4>Q. Im a safety - safety?</h4>
+                    <p>A. Fully monitored tracking routes backed by authorized local administration permissions.</p>
+                </div>
+                <div class="faq-item-card">
+                    <h4>Q. Has limited registration?</h4>
+                    <p>A. Yes, caps strictly remain structured directly around 100 entries.</p>
+                </div>
+                <div class="faq-item-card">
+                    <h4>Q. What can participation community undvnjsngshonr?</h4>
+                    <p>A. Specially coordinated parameters ensuring optimal social network blending layouts.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 10. Final CTA Section -->
-    <footer class="final-cta text-center gradient-bg-hero">
+    <!-- Cinematic Final CTA Section -->
+    <footer class="final-cta-section">
         <div class="hero-overlay"></div>
-        <div class="container hero-content">
-            <h2 class="hero-title section-padding-md">Ready to Be Part of Chennai’s Most Exciting Heritage Rally?</h2>
-            <p class="hero-subtitle text-cream">One Car. Four Participants. One unforgettable experience.</p>
-            <div class="final-actions section-padding-sm">
-                <span class="text-cream spacer">Limited Registrations • 100 Cars Only</span>
-                <a href="#register" class="btn btn-gold navbar-cta spacer">Register Your Car – ₹2,000</a>
-                <span class="text-cream spacer">Registrations • 100 Cars Only</span>
+        <div class="container final-cta-content text-center">
+            <h2 class="cta-primary-title">Ready to Be Part of Chennai’s Most Exciting Heritage Rally?</h2>
+            <p class="cta-secondary-title">One Car. Four Participants. One unforgettable experience.</p>
+            
+            <div class="final-meta-badge-container">
+                <span class="meta-pill">Limited Registrations</span>
+                <a href="#register" class="btn btn-action-gold-cta">Register Your Car – ₹2,000</a>
+                <span class="meta-pill">100 Cars Only</span>
             </div>
-            <a href="#register" class="btn btn-gold navbar-cta">Register Now</a>
+
+            <div class="footer-bottom-branding">
+                <div class="footer-shield-logo">VROOM 2026</div>
+                <p class="branding-footnote">NASMENT_LIAK_HERE</p>
+            </div>
         </div>
     </footer>
 
-    <!-- Floating WhatsApp CTA -->
-    <a href="WHATSAPP_LINK_HERE" class="floating-whatsapp card" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    <!-- Fixed WhatsApp Floating Sticky CTA Widget -->
+    <a href="WHATSAPP_LINK_HERE" class="floating-whatsapp-widget" target="_blank" aria-label="Contact Coordinator on WhatsApp">
+        <svg viewBox="0 0 32 32" class="whatsapp-svg-icon">
+            <path d="M16 2a13.98 13.98 0 0 0-12 21.12L2 29.11l6.23-1.63A13.94 13.94 0 0 0 16 30c7.73 0 14-6.27 14-14S23.73 2 16 2zm0 25.5a11.44 11.44 0 0 1-5.83-1.58l-.42-.25-3.87 1 1-3.77-.27-.43A11.47 11.47 0 1 1 16 27.5z" fill="#FFF"/>
+            <path d="M6.62 10.79a2.12 2.12 0 0 0-.43 1.25 3.86 3.86 0 0 0 1.63 2.58A15.34 15.34 0 0 0 14 19.54a5.13 5.13 0 0 0 1.63.34A2.35 2.35 0 0 0 17.3 19l1.63-2.4a.51.51 0 0 0-.09-.64l-1.93-1.45a.53.53 0 0 0-.69 0l-.82.68a.38.38 0 0 1-.47 0c-.86-.64-1.89-1.54-2.49-2.31a.36.36 0 0 1 0-.43l.73-.86a.54.54 0 0 0 0-.73L11.39 9.3A.55.55 0 0 0 10.7 9.3l-1.59 1a1.27 1.27 0 0 0-.49.49z" fill="#FFF"/>
+        </svg>
     </a>
 
     <script src="script.js"></script>
